@@ -1,4 +1,4 @@
-<h1>Fetch Weather from <a href="https://openweathermap.org/">OpenWeatherMapAPI</a> and automize to running daily with Github Actions</h1>
+<h1>Fetch Weather Data From <a href="https://openweathermap.org/">OpenWeatherMapAPI</a> and Automize to Running Daily With Github Actions</h1>
 
 <h2>Description</h2>
 This project automates the process of collecting 5-day weather forecasts, scheduling, and storing weather data into csv in github repository.
