@@ -1,7 +1,7 @@
 <h1>Fetch Weather Data From <a href="https://openweathermap.org/">OpenWeatherMapAPI</a> and Automate it to Run Daily With Github Actions</h1>
 
 <h2>Description</h2>
-This project automates the process of collecting 5-day weather forecasts, scheduling, and storing weather data into csv in github repository.
+This project automates the process of collecting 5-day weather forecasts, schedule the script to run at 6am every day, and storing weather data into csv in github repository.
 <br />
 
 <h2>Languages and Utilities Used</h2>
@@ -25,7 +25,7 @@ Copy the API Key<br/>
 <img src="https://i.imgur.com/b0ullLH.jpeg" height="60%" width="60%" alt="CopytheAPIKey"/>
 <br />
 <br />
-Then paste the API KEY to repository secret<br/>
+Then paste the API KEY into repository secret<br/>
 <br />
 
 <!--
