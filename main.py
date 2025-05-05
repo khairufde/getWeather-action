@@ -6,9 +6,9 @@ import os
 
 def get_weather_data():
     city_name = 'london'
-    api_key = os.environ['WEATHER_API_KEY']
+    WEATHER_API_KEY = os.environ['WEATHER_API_KEY']
 
-    coor_url = f'http://api.openweathermap.org/geo/1.0/direct?q={city_name}&limit=5&appid={api_key}'
+    coor_url = f'http://api.openweathermap.org/geo/1.0/direct?q={city_name}&limit=5&appid={WEATHER_API_KEY}'
     coor_req = requests.get(coor_url)
     coor_req.raise_for_status()
     coor_data = coor_req.json()
@@ -20,7 +20,7 @@ def get_weather_data():
         print("No data found")
         return pd.DataFrame()
 
-    fore_url = f'http://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={api_key}'
+    fore_url = f'http://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={WEATHER_API_KEY}'
     fore_req = requests.get(fore_url)
     json_data = json.loads(fore_req.text)
 

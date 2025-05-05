@@ -9,9 +9,6 @@ jobs:
   run-script:
     runs-on: ubuntu-latest
 
-    env:
-      API_KEY: ${{ secrets.WEATHER_API_KEY }}
-
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
@@ -25,6 +22,8 @@ jobs:
       run: pip install -r requirements.txt
 
     - name: Run weather script
+      env:
+        WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY }}
       run: python main.py
 
     - name: Upload CSV as artifact
