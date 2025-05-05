@@ -6,7 +6,7 @@ import os
 
 def get_weather_data():
     city_name = 'london'
-    api_key = os.getenv('WEATHER_API_KEY')
+    api_key = os.environ['WEATHER_API_KEY']
 
     coor_url = f'http://api.openweathermap.org/geo/1.0/direct?q={city_name}&limit=5&appid={api_key}'
     coor_req = requests.get(coor_url)
