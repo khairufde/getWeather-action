@@ -35,7 +35,7 @@ To download the csv file, open Actions tabs and click on Fetch Weather Data<br/>
 <br />
 Then, click the download symbol<br/>
 <br />
-<img src="https://i.imgur.com/E95Q5so.png" height="80%" width="80%" alt="DownloadCSV">
+<img src="https://i.imgur.com/udxoQ5N.png" height="80%" width="80%" alt="DownloadCSV">
 <br />
 <br />
 Here is the Example of the output in csv format<br/>
