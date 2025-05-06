@@ -25,7 +25,7 @@ Copy the API Key<br/>
 <img src="https://i.imgur.com/b0ullLH.jpeg" height="60%" width="60%" alt="CopytheAPIKey"/>
 <br />
 <br />
-Then paste the API KEY into repository secret in settings > Secret and Availabebility<br/>
+Then paste the API KEY into repository secret in Settings > Secret and > Actions<br/>
 <br />
 <br />
 To download the csv file, open Actions tabs and click on Fetch Weather Data<br/>
