@@ -18,11 +18,11 @@ This project automates the process of collecting 5-day weather forecasts, schedu
 <p align="center">
 <br />
 You have to sign in to <a href="https://openweathermap.org/">openweathermapAPI</a>, then navigate to My API Keys<br/>
-<img src="https://i.imgur.com/WGDsGwV.jpeg" height="60%" width="60%" alt="MyAPIKeys"/>
+<img src="https://i.imgur.com/WGDsGwV.jpeg" height="70%" width="70%" alt="MyAPIKeys"/>
 <br />
 <br />
 Copy the API Key<br/>
-<img src="https://i.imgur.com/b0ullLH.jpeg" height="60%" width="60%" alt="CopytheAPIKey"/>
+<img src="https://i.imgur.com/b0ullLH.jpeg" height="70%" width="70%" alt="CopytheAPIKey"/>
 <br />
 <br />
 Then paste the API KEY into repository secret in Settings > Secrets and Variables > Actions > Click on New Repository Secret<br/>
@@ -30,17 +30,17 @@ Then paste the API KEY into repository secret in Settings > Secrets and Variable
 <br />
 To download the csv file, open Actions tabs and click on Fetch Weather Data<br/>
 <br />
-<img src="https://i.imgur.com/99Bub3b.png" height="60%" width="60%" alt="ActionsTabs">
+<img src="https://i.imgur.com/99Bub3b.png" height="80%" width="80%" alt="ActionsTabs">
 <br />
 <br />
 Then, click the download symbol<br/>
 <br />
-<img src="https://i.imgur.com/E95Q5so.png" height="60%" width="60%" alt="DownloadCSV">
+<img src="https://i.imgur.com/E95Q5so.png" height="80%" width="80%" alt="DownloadCSV">
 <br />
 <br />
 Here is the Example of the output in csv format<br/>
 <br />
-<img src="https://i.imgur.com/GbXA5cD.png" height="60%" width="60%" alt="CSVOutput">
+<img src="https://i.imgur.com/GbXA5cD.png" height="50%" width="50%" alt="CSVOutput">
 <br />
 
 
